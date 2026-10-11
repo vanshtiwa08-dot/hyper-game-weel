@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#090b12">
+<meta name="description" content="Hyper.Game.Weel — your neon gaming hub. Discover games, challenges and community.">
+<title>Hyper.Game.Weel | Gaming Hub</title>
+<style>
+:root{--bg:#080a11;--panel:#111522;--panel2:#151b2b;--text:#f4f7ff;--muted:#a4aec5;--cyan:#46f6ff;--purple:#a855f7;--pink:#ff4fc8;--line:#273047}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 80% 0%,#22204b 0,transparent 38%),radial-gradient(ellipse at 0% 35%,#092b3b 0,transparent 35%),var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.5}a{color:inherit;text-decoration:none}button{font:inherit;cursor:pointer}.wrap{width:min(1120px,calc(100% - 36px));margin:auto}.nav{position:sticky;top:0;z-index:10;background:#080a11dd;backdrop-filter:blur(14px);border-bottom:1px solid #273047}.navin{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:72px}.brand{font-weight:950;letter-spacing:.5px;font-size:1.1rem}.brand span{color:var(--cyan);text-shadow:0 0 18px #46f6ff66}.links{display:flex;gap:24px;color:var(--muted);font-size:.94rem}.links a:hover{color:var(--cyan)}.menu{display:none;background:transparent;color:white;border:1px solid var(--line);border-radius:10px;padding:8px 11px}.hero{padding:80px 0 58px;display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:36px;min-height:510px}.eyebrow{display:inline-flex;gap:8px;align-items:center;color:var(--cyan);border:1px solid #46f6ff55;background:#46f6ff0d;padding:7px 12px;border-radius:999px;font-size:.78rem;font-weight:800;letter-spacing:1.2px;text-transform:uppercase}.dot{width:7px;height:7px;border-radius:50%;background:var(--cyan);box-shadow:0 0 12px var(--cyan)}h1{font-size:clamp(2.8rem,7vw,5.7rem);line-height:.99;letter-spacing:-3px;margin:22px 0}.gradient{background:linear-gradient(100deg,var(--cyan),#b3a0ff 55%,var(--pink));-webkit-background-clip:text;background-clip:text;color:transparent}.hero p{max-width:520px;color:var(--muted);font-size:1.08rem}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.btn{border:1px solid var(--line);padding:12px 18px;border-radius:12px;font-weight:800;display:inline-flex;align-items:center;justify-content:center;gap:8px;transition:transform .2s,box-shadow .2s}.btn:hover{transform:translateY(-2px)}.primary{color:#071015;background:var(--cyan);border-color:var(--cyan);box-shadow:0 0 25px #46f6ff33}.secondary{background:#ffffff08}.art{min-height:330px;border:1px solid #3b4263;border-radius:28px;position:relative;overflow:hidden;display:grid;place-items:center;background:linear-gradient(145deg,#171a35,#101321 55%,#182f40);box-shadow:0 20px 80px #0008,inset 0 0 50px #46f6ff0c}.art:before,.art:after{content:"";position:absolute;border-radius:50%;filter:blur(2px)}.art:before{width:250px;height:250px;background:#8b5cf633;top:-80px;right:-35px}.art:after{width:230px;height:230px;background:#46f6ff20;bottom:-100px;left:-45px}.orb{position:relative;z-index:1;width:210px;height:210px;border-radius:50%;display:grid;place-items:center;background:radial-gradient(circle at 30% 25%,#ffffff,#a7faff 7%,#4a8cff 25%,#3a206e 62%,#090b12 72%);box-shadow:0 0 40px #46f6ff66,0 0 100px #a855f733;transform:rotate(-18deg)}.orb:before{content:"";position:absolute;width:290px;height:75px;border:8px solid #46f6ff;border-radius:50%;transform:rotate(-25deg);box-shadow:0 0 20px #46f6ff99}.orb:after{content:"H";font-size:6rem;font-weight:1000;color:white;text-shadow:0 0 25px #46f6ff;transform:rotate(18deg)}.artlabel{position:absolute;z-index:2;bottom:20px;left:22px;font-weight:900;letter-spacing:3px;color:#d9e9ff}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:4px 0 66px}.stat{border:1px solid var(--line);border-radius:15px;background:#ffffff05;padding:17px}.stat strong{display:block;font-size:1.35rem}.stat span{color:var(--muted);font-size:.86rem}.section{padding:26px 0 62px}.sectionhead{display:flex;justify-content:space-between;align-items:end;gap:16px;margin-bottom:22px}.kicker{color:var(--cyan);font-size:.75rem;font-weight:900;letter-spacing:2px;text-transform:uppercase}.section h2{font-size:clamp(1.8rem,4vw,2.5rem);margin:5px 0 0;letter-spacing:-1px}.sectionhead p{color:var(--muted);margin:0}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:linear-gradient(150deg,#151a2b,#0e111b);border:1px solid var(--line);border-radius:18px;overflow:hidden;transition:transform .2s,border-color .2s}.card:hover{transform:translateY(-5px);border-color:#46f6ff77}.cover{height:145px;display:grid;place-items:center;font-size:3.4rem;background:radial-gradient(circle at 50% 40%,#39316b,#14182a 67%)}.card:nth-child(2) .cover{background:radial-gradient(circle at 50% 40%,#175a61,#14182a 67%)}.card:nth-child(3) .cover{background:radial-gradient(circle at 50% 40%,#65264d,#14182a 67%)}.cardbody{padding:18px}.tag{font-size:.72rem;font-weight:800;color:var(--cyan);text-transform:uppercase;letter-spacing:1px}.card h3{margin:7px 0}.card p{color:var(--muted);font-size:.92rem;min-height:44px;margin:0 0 16px}.smallbtn{width:100%;padding:10px;border:1px solid #3b4561;border-radius:10px;background:#ffffff08;color:white;font-weight:800}.smallbtn:hover{border-color:var(--cyan);color:var(--cyan)}.board{border:1px solid var(--line);border-radius:18px;overflow:hidden;background:#ffffff04}.boardrow{display:grid;grid-template-columns:60px 1fr 100px;gap:12px;padding:15px 20px;border-bottom:1px solid #273047;align-items:center}.boardrow:last-child{border:0}.boardhead{color:var(--muted);font-size:.8rem;text-transform:uppercase;letter-spacing:1px;background:#ffffff06}.rank{color:var(--cyan);font-weight:900}.points{text-align:right;font-weight:800}.community{margin:8px 0 70px;padding:30px;border:1px solid #34405b;border-radius:22px;background:linear-gradient(110deg,#151a2b,#12152a 60%,#142632);display:flex;align-items:center;justify-content:space-between;gap:24px}.community h2{margin:0 0 8px}.community p{color:var(--muted);margin:0;max-width:600px}.footer{border-top:1px solid var(--line);padding:24px 0;color:var(--muted);font-size:.88rem}.footerin{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}.notice{margin-top:15px;padding:12px 14px;border-radius:10px;border:1px solid #46f6ff55;background:#46f6ff0d;color:#d9faff;font-size:.9rem;display:none}.notice.show{display:block}
+@media(max-width:760px){.links{display:none;position:absolute;top:71px;left:0;right:0;padding:18px;background:#080a11;border-bottom:1px solid var(--line);flex-direction:column;gap:15px}.links.open{display:flex}.menu{display:block}.hero{grid-template-columns:1fr;padding:54px 0 35px;gap:30px}.hero h1{letter-spacing:-2px}.art{min-height:275px}.orb{width:155px;height:155px}.orb:before{width:220px;height:58px;border-width:6px}.orb:after{font-size:4.5rem}.stats{margin-bottom:45px}.cards{grid-template-columns:1fr}.cover{height:125px}.sectionhead{align-items:start;flex-direction:column}.community{align-items:flex-start;flex-direction:column;padding:24px}.boardrow{grid-template-columns:42px 1fr 75px;padding:13px 12px}.wrap{width:min(100% - 28px,1120px)}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+</style>
+</head>
+<body>
+<header class="nav">
+  <div class="wrap navin">
+    <a class="brand" href="#home" aria-label="Hyper Game Weel home">HYPER<span>.GAME.WEEL</span></a>
+    <nav class="links" id="navlinks" aria-label="Main navigation">
+      <a href="#games">Games</a><a href="#leaderboard">Leaderboard</a><a href="#community">Community</a>
+    </nav>
+    <button class="menu" id="menuBtn" aria-expanded="false" aria-controls="navlinks">☰ Menu</button>
+  </div>
+</header>
+<main id="home">
+  <section class="wrap hero">
+    <div>
+      <div class="eyebrow"><span class="dot"></span> LEVEL UP YOUR PLAY</div>
+      <h1>ENTER THE<br><span class="gradient">HYPER ZONE.</span></h1>
+      <p>Your next gaming adventure starts here. Explore challenges, discover games, and bring your squad together in one neon-powered hub.</p>
+      <div class="actions"><a class="btn primary" href="#games">🎮 Explore Games</a><a class="btn secondary" href="#leaderboard">🏆 View Leaderboard</a></div>
+      <div class="notice" id="notice" role="status"></div>
+    </div>
+    <div class="art" aria-label="Abstract neon gaming orb illustration">
+      <div class="orb"></div><div class="artlabel">PLAY • COMPETE • REPEAT</div>
+    </div>
+  </section>
+  <section class="wrap stats" aria-label="Website highlights">
+    <div class="stat"><strong>⚡ Fast</strong><span>Lightweight design</span></div>
+    <div class="stat"><strong>📱 Any Screen</strong><span>Mobile-friendly layout</span></div>
+    <div class="stat"><strong>🌌 Neon Mode</strong><span>Dark gaming vibes</span></div>
+  </section>
+  <section class="wrap section" id="games">
+    <div class="sectionhead"><div><div class="kicker">Pick your challenge</div><h2>Featured Games</h2></div><p>Choose a card to see its details.</p></div>
+    <div class="cards">
+      <article class="card"><div class="cover" aria-hidden="true">🚀</div><div class="cardbody"><span class="tag">Arcade • Action</span><h3>Neon Rush</h3><p>Dodge obstacles, chase high scores, and test your reflexes.</p><button class="smallbtn gamebtn" data-game="Neon Rush">View Game</button></div></article>
+      <article class="card"><div class="cover" aria-hidden="true">🛡️</div><div class="cardbody"><span class="tag">Strategy • Tactics</span><h3>Cyber Arena</h3><p>Plan your next move and outsmart the competition.</p><button class="smallbtn gamebtn" data-game="Cyber Arena">View Game</button></div></article>
+      <article class="card"><div class="cover" aria-hidden="true">🏎️</div><div class="cardbody"><span class="tag">Racing • Speed</span><h3>Turbo Circuit</h3><p>Hit the track and aim for a new personal best.</p><button class="smallbtn gamebtn" data-game="Turbo Circuit">View Game</button></div></article>
+    </div>
+  </section>
+  <section class="wrap section" id="leaderboard">
+    <div class="sectionhead"><div><div class="kicker">Hall of fame</div><h2>Leaderboard</h2></div><p>Demo scores — not live player data.</p></div>
+    <div class="board" role="table" aria-label="Sample leaderboard">
+      <div class="boardrow boardhead" role="row"><span>Rank</span><span>Player</span><span class="points">Score</span></div>
+      <div class="boardrow" role="row"><span class="rank">#01</span><span>⚡ PixelNinja</span><span class="points">9,850</span></div>
+      <div class="boardrow" role="row"><span class="rank">#02</span><span>🌙 NovaPlayer</span><span class="points">8,420</span></div>
+      <div class="boardrow" role="row"><span class="rank">#03</span><span>🔥 HyperAce</span><span class="points">7,960</span></div>
+    </div>
+  </section>
+  <section class="wrap community" id="community">
+    <div><div class="kicker">Your squad awaits</div><h2>Ready to play, gamer?</h2><p>This is your gaming hub starter site. Add your own game links and social community links whenever you're ready.</p></div>
+    <a class="btn primary" href="#games">Let's Go <span aria-hidden="true">→</span></a>
+  </section>
+</main>
+<footer class="footer"><div class="wrap footerin"><span>© <span id="year"></span> Hyper.Game.Weel</span><span>Made for gamers, with ⚡</span></div></footer>
+<script>
+const menuBtn=document.getElementById('menuBtn');
+const navlinks=document.getElementById('navlinks');
+menuBtn.addEventListener('click',()=>{const open=navlinks.classList.toggle('open');menuBtn.setAttribute('aria-expanded',String(open));});
+navlinks.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{navlinks.classList.remove('open');menuBtn.setAttribute('aria-expanded','false');}));
+document.getElementById('year').textContent=new Date().getFullYear();
+const notice=document.getElementById('notice');
+document.querySelectorAll('.gamebtn').forEach(btn=>btn.addEventListener('click',()=>{notice.textContent=btn.dataset.game+' is a featured-game preview card. Add a real game URL in index.html to launch a game here.';notice.classList.add('show');notice.scrollIntoView({behavior:'smooth',block:'center'});}));
+</script>
+</body>
+</html>
